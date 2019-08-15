@@ -1,1 +1,11 @@
 // Mixins in here
+
+.custom-btn(@color, @size, @radius) {
+    background-color: @color;
+    font-size: @size;
+    border-radius: @radius;
+}
+
+.btn {
+    .custom-btn(#008B8B, 30px, 20px);
+}

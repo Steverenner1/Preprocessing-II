@@ -1,3 +1,8 @@
+.btn {
+  background-color: #008B8B;
+  font-size: 30px;
+  border-radius: 20px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -167,17 +172,6 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-}
-header {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
-  border-bottom: 1px dotted gray;
-  display: flex;
-  justify-content: space-between;
-  font-size: 3.2rem;
-  margin-top: 50px;
-  border-bottom: 2px dashed #C0C0C0;
 }
 nav {
   font-size: 1.6rem;
